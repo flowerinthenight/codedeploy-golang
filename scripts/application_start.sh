@@ -2,7 +2,7 @@
 
 # usually sudo but not needed because appspec.yml has runas root
 # service codedeploy start
-cd $GOPATH/src/github.com/flowerinthenight/codedeploy-golang/
+cd /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang/
 
 # restore dependencies
 # godep restore
