@@ -7,6 +7,6 @@ cd /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang/
 # restore dependencies
 # godep restore
 
-# make binary
+# run server
 ./codedeploy-golang > /dev/null 2> /dev/null < /dev/null &
-echo "Started"
+exit 0
