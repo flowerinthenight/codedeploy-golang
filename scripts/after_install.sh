@@ -16,10 +16,10 @@
 # go get github.com/tools/godep
 
 # go to golang app
-cd $GOPATH/src/github.com/flowerinthenight/codedeploy-golang/
+cd /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang/
 
 # restore dependencies
 # godep restore
 
 # make binary
-go build -v
+/usr/local/go/bin/go build -v
