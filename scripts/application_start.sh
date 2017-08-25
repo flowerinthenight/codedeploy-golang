@@ -8,5 +8,5 @@ cd /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang/
 # godep restore
 
 # make binary
-./codedeploy-golang &
+./codedeploy-golang > /dev/null 2> /dev/null < /dev/null &
 echo "Started"
