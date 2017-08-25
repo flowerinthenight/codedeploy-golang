@@ -9,3 +9,4 @@ cd /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang/
 
 # make binary
 ./codedeploy-golang &
+echo "Started"
