@@ -23,3 +23,4 @@ cd /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang/
 
 # make binary
 /usr/local/go/bin/go build -v
+chmod a+x scripts/application_start.sh
