@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: scripts/upstart/codedeploy.conf
-    destination: /etc/init/
+  # - source: scripts/upstart/codedeploy.conf
+  #   destination: /etc/init/
   - source: /
-    destination: /home/ubuntu/gocode/src/github.com/zemirco/codedeploy
+    destination: /home/ubuntu/golang/src/github.com/flowerinthenight/codedeploy-golang
 permissions:
   - object: /
     pattern: "**"
